@@ -1,0 +1,17 @@
+:root { --bg:#f7f5f0; --panel:#fff; --text:#2b2722; --muted:#776c60; --accent:#8a5a2b; --border:#e1d6c4; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:"Hiragino Sans","Noto Sans JP",sans-serif; background:var(--bg); color:var(--text); line-height:1.7; }
+a { color:var(--accent); }
+header { max-width:880px; margin:0 auto; padding:28px 16px 8px; }
+header .logo { font-size:1.5rem; font-weight:bold; color:var(--accent); text-decoration:none; }
+header p { margin:4px 0 0; color:var(--muted); }
+main { max-width:880px; margin:0 auto; padding:0 16px; }
+.tools { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:16px; margin:20px 0; padding:0; list-style:none; }
+.tools a { display:block; height:100%; padding:18px 20px; background:var(--panel); border:1px solid var(--border); border-radius:12px; text-decoration:none; color:var(--text); }
+.tools a:hover { border-color:var(--accent); }
+.tools h2 { margin:0 0 6px; font-size:1.15rem; color:var(--accent); }
+.tools p { margin:0; font-size:.92rem; color:var(--muted); }
+.panel { background:var(--panel); border:1px solid var(--border); border-radius:12px; padding:20px; margin:20px 0; }
+.panel h2 { font-size:1.15rem; margin-top:0; }
+.panel h3 { font-size:1rem; margin:18px 0 4px; }
+footer { text-align:center; padding:28px 16px; font-size:.85rem; color:var(--muted); }

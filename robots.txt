@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://kdking-tools.com/sitemap.xml
